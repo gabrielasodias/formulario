@@ -15,26 +15,20 @@
         <div class="form">
             <form method="post" action="email.php"
 
-                <div class="form-header">
-                    <div class="title">
-                        <h1>Formulário de Contato</h1>
-                    </div>  
-                </div>
 
                 <div class="input-group">
-                    <label for="name">Nome</label>
-                    <input id="name" type="text" name="name" placeholder="Seu nome">
-                    <label for="email">Email</label>
-                    <input id="email" type="email" name="email" placeholder="Seu E-mail">
-                    <label for="assunto">Assunto</label>
-                    <input id="assunto" type="text" name="assunto" placeholder="Assunto">
-                    <label for="message">Mensagem</label>
-                    <textarea name="message" id="message" placeholder="Digite sua mensagem"></textarea>
-
+                    <h1>Formulário de Contato</h1>
+                    <label for="name" class="label">Nome</label>
+                    <input class="input" id="name" type="text" name="name" placeholder="Seu Nome">
+                    <label for="email" class="label">E-mail</label>
+                    <input class="input" id="email" type="email" name="email" placeholder="Seu E-mail">
+                    <label for="assunto" class="label">Assunto</label>
+                    <input class="input" id="assunto" type="text" name="assunto" placeholder="Assunto">
+                    <label for="message" class="label">Mensagem</label>
+                    <textarea class="input-text" name="message" id="message" placeholder="Digite sua mensagem"></textarea>
                     <div>
-                        <input type="submit" value="Enviar">
-                    </div>
-                    
+                        <input class="submit-button" type="submit" value="Enviar">
+                    </div>  
                 </div>
             </form>
         </div>
