@@ -12,6 +12,33 @@
             <img src="assets/img/Contact-us.svg" alt="">
         </div>
 
+        <div class="form">
+            <form method="post" action="email.php"
+
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Formulário de Contato</h1>
+                    </div>  
+                </div>
+
+                <div class="input-group">
+                    <label for="name">Nome</label>
+                    <input id="name" type="text" name="name" placeholder="Seu nome">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" placeholder="Seu E-mail">
+                    <label for="assunto">Assunto</label>
+                    <input id="assunto" type="text" name="assunto" placeholder="Assunto">
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message" placeholder="Digite sua mensagem"></textarea>
+
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                    
+                </div>
+            </form>
+        </div>
+
     </div>
 </body>
 </html>
